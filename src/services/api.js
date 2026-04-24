@@ -3,7 +3,7 @@ import { getToken, getRefresh, setTokens, clearAuth } from '../utils/helpers';
 
 // 1. Unified safety check for environment variables
 const env = typeof process !== 'undefined' ? process.env : import.meta.env || {};
-const BASE = env.REACT_APP_API_URL || env.VITE_API_URL || 'http://localhost:5000/api/v1';
+const BASE = env.REACT_APP_API_URL || env.VITE_API_URL || "https://impact-bridge-backend-fujf.onrender.com/api/v1";
 
 console.log('[API] Base URL:', BASE);
 

@@ -8,8 +8,8 @@ import {
 } from 'react-icons/md';
 import { FaWhatsapp } from 'react-icons/fa';
 import requestSvc from '../../services/requestService';
-import { PageLoader, CardSkeleton } from '../../components/common/Loader';
-import ProgressBar from '../../components/common/ProgressBar';
+import { PageLoader, CardSkeleton, ProgressBar } from '../../components/common/Loader';
+// import ProgressBar from '../../components/common/ProgressBar';
 import Badge from '../../components/common/Badge';
 import Button from '../../components/common/Button';
 import Empty from '../../components/common/Empty';
